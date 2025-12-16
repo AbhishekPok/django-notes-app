@@ -1,0 +1,18 @@
+# Ignore MySQL / database data
+data/
+mysql/
+db/
+*.sock
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+
+# Git
+.git/
+.gitignore
