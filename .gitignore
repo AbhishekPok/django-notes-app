@@ -30,3 +30,9 @@ data/mysql/
 *.ibd
 *.ib_logfile*
 *.sock
+# MySQL runtime data (NEVER COMMIT)
+data/mysql/
+*.dblwr
+*.ibd
+*.ib_logfile*
+*.sock
